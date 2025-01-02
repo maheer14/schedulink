@@ -52,13 +52,7 @@ To support ticket-based scheduling, a kernel-level pseudo-random number generato
 
 Command-Line Tool: ps
 
-A custom ps command-line tool was developed to display process information:
-
-NAME    PID     STATUS      COLOR    TICKETS
-init    1       SLEEPING    RED      10    
-sh      2       SLEEPING    ORANGE   2
-test    4       SLEEPING    RED      4
-ps      6       RUNNING     INDIGO   1
+A custom ps command-line tool was developed to display process information.
 
 This tool leverages the getpinfo system call, providing an insightful view of the system’s current state and aiding in administrative tasks.
 
